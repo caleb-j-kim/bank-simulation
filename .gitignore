@@ -1,0 +1,3 @@
+# semaphore.cpp / .h is not included on purpose as to not cause conflicts with users who are using their own versions of semaphore.cpp / .h
+semaphore.cpp
+semaphore.h

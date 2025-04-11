@@ -1,0 +1,35 @@
+This repository contains nine C++ files that emulates how a bank operates to demonstrate how threads and POSIX semaphores work.
+### * Threads:
+- According to cplusplus.com, threads are sequences of instructions / tasks that can be run side by side.
+- This is also known as multithreading and all of these threads that work concurrently all share the same resources and address space.
+
+* POSIX Semaphores:
+- According to gnu.org, a semaphore is generally used as an object that synchronizes or combines multiple threads together.
+- It contains a counter that only allows access to one or more threads when there are enough resources for the thread to be initiated and protects finite resources such as memory or thread pools.
+
+### 1. semaphore.cpp
+_Given code from project instructions (unmodified) and is used to synchronize between multiple threads._
+
+- **semaphore.h:** Header file for all of the functions and variables used inside of semaphore.cpp
+
+### 2. BankSimulation.cpp
+_Helper file that stores all of the helper functions that will be needed throughout the program and promotes low coupling and high cohesion (leads to greater efficiency)._
+
+- **BankSimulation.h:** Header file for all of the functions and variables used inside of BankSimulation.cpp
+
+### 3. Teller.cpp
+_File that contains code for all of the bank teller thread functionalities._
+
+- **Teller.h:** Header file for all of the functions and variables used inside of Teller.cpp
+
+### 4. Customer.cpp
+_File that contains code for all of the customer thread functionalities._
+
+- **Customer.h:** Header file for all of the functions and variables used inside of Customer.cpp
+
+### 5. main.cpp
+_Main file that starts the simulation and creates the threads._
+
+
+In order to run this file, you will need to connect to Linux (Ubuntu for example).
+* Once this is done, simply type 'make' in the terminal and follow the instructions that are prompted afterwards!

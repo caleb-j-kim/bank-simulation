@@ -41,3 +41,4 @@
 -- 4/10/25 - 10:50 pm --
 * Implemented main.cpp to start the simulation of a bank and all of the threads are created in this file.
 * Designed a makefile to simplify running the project as it compiles all of the source files into one single executable.
+* Future plans: Test the code and ensure that it works before submitting as a grade.

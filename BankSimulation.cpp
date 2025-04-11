@@ -26,7 +26,7 @@ int tellerReadyCount = 0;
 
 // Waiting line for customers
 std::mutex lineMtx;
-std::queue<int> waitingCustomers;
+std::queue<int> customerQueue;
 int freeTellers = NUM_TELLERS;
 std::condition_variable lineCV;
 std::condition_variable tellerFreeCV;

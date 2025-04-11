@@ -27,3 +27,7 @@
 * Implemented the BankSimulation.cpp by referencing how the BankSimulation.h referenced everything that was required.
 * Future plans: Code the Teller.cpp / .h files next.
 
+-- 4/10/25 - 10:16 pm --
+* Implemented Teller.h to create the general structure of how the Teller.cpp should work.
+* Created Teller.cpp that simulates how the bank tellers' day-by-day tasks would consist of. 
+* Future plans: Code the Customer.cpp / .h files next.

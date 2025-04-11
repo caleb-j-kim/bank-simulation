@@ -1,7 +1,7 @@
 /*  Caleb Kim
     4/8/2025
     CS 4348.501
-    Header file for BankSimulation functions.
+    Header file for BankSimulation.cpp functions.
 */
 
 #ifndef BANKSIMULATION_H

@@ -42,3 +42,9 @@
 * Implemented main.cpp to start the simulation of a bank and all of the threads are created in this file.
 * Designed a makefile to simplify running the project as it compiles all of the source files into one single executable.
 * Future plans: Test the code and ensure that it works before submitting as a grade.
+
+-- 4/10/25 - 11:22 pm --
+* Updated README.me to account for troubleshooting issues I had when trying to run the project.
+- Added more instructions that more accurately what I needed to do to get the desired output which is a long list of messages.
+* Reimplemented the .gitignore file that deletes the temporary files created from the 'make'.
+- Requires that everyone completes the same process which mitigates the amount of issues that people may face.

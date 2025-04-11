@@ -1,0 +1,8 @@
+# Ensures that temporary files and build artifacts are not tracked by Git and everyone can build the project from scratch.
+
+bank_simulation
+BankSimulation.o
+Customer.o
+main.o
+semaphore.o
+Teller.o

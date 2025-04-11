@@ -22,3 +22,8 @@
 - Explained the concepts of threads and POSIX semaphores are to better understand what I need to code for the project and for those who are less technologically knowledgable to comprehend how the project works.
 - I felt it was better to work on the README.me before continuing on with the code so I can ensure that I thoroughly understand what I am doing before I create threads and use the Semaphore class.
 * Future plans: Code the BankSimulation.cpp and work on the Teller.cpp / .h next.
+
+-- 4/10/25 - 9:03 pm --
+* Implemented the BankSimulation.cpp by referencing how the BankSimulation.h referenced everything that was required.
+* Future plans: Code the Teller.cpp / .h files next.
+

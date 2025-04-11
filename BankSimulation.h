@@ -24,7 +24,7 @@ extern Semaphore doorSem; // semaphore for door access + only two customers at a
 extern Semaphore managerSem; // semaphore for manager access + only one teller can interact with the manager at a time.
 extern Semaphore safeSem; // semaphore for safe access + only two tellers can be in the safe at once.
 
-// Global counters
+// Global counters and flags
 extern std::atomic<int> customersServed;
 
 // Synchonrize bank opening

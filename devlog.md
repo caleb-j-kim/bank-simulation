@@ -31,3 +31,9 @@
 * Implemented Teller.h to create the general structure of how the Teller.cpp should work.
 * Created Teller.cpp that simulates how the bank tellers' day-by-day tasks would consist of. 
 * Future plans: Code the Customer.cpp / .h files next.
+
+-- 4/10/25 - 10:39 pm --
+* Implemented Customer.h to create the general structure of how the Teller.cpp should work.
+* Created Customer.cpp that simulates how the customers would behave when entering the bank.
+- Didn't take nearly as long as the Teller.cpp did because the logic is very similar the Teller.cpp code except the tasks are reversed.
+* Future plans: Code main.cpp and create a makefile to begin testing the code's functionality before submitting.

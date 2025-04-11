@@ -37,3 +37,7 @@
 * Created Customer.cpp that simulates how the customers would behave when entering the bank.
 - Didn't take nearly as long as the Teller.cpp did because the logic is very similar the Teller.cpp code except the tasks are reversed.
 * Future plans: Code main.cpp and create a makefile to begin testing the code's functionality before submitting.
+
+-- 4/10/25 - 10:50 pm --
+* Implemented main.cpp to start the simulation of a bank and all of the threads are created in this file.
+* Designed a makefile to simplify running the project as it compiles all of the source files into one single executable.
